@@ -273,22 +273,21 @@
 
 
     
-        <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
-    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
-    <div id="comments">
-        <script>
-            var gitment = new Gitment({
-                owner: 'yueyongxidain',
-                repo: 'https://github.com/yueyongxidain/yueyongxidain.github.io',
-                oauth: {
-                    client_id: '8b2a0d84e323d9675f10',
-                    client_secret: '5ce7afcd4fb6749bfac21b51f893f83bd5c636c5',
-                },
-            })
-            gitment.render('comments')
-        </script>
-    </div>
-
+    <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<div id="comments">
+    <script>
+        var gitment = new Gitment({
+            owner: 'yueyongxidain',
+            repo: 'https://github.com/yueyongxidain/yueyongxidain.github.io',
+            oauth: {
+                client_id: '8b2a0d84e323d9675f10',
+                client_secret: '5ce7afcd4fb6749bfac21b51f893f83bd5c636c5',
+            },
+        })
+        gitment.render('comments')
+    </script>
+</div>
     
 </section>
         

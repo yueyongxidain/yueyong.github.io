@@ -275,10 +275,11 @@
     
     <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
 <script src="https://billts.site/js/gitment.js"></script>
+<script src="http://cdn.bootcss.com/blueimp-md5/1.1.0/js/md5.js"></script>
 <div id="comments">
     <script>
         var gitment = new Gitment({
-            id: '{{ page.date }}',
+            id: md5(window.location.pathname),
             owner: 'yueyongxidain',
             repo: 'yueyongxidain.github.io',
             oauth: {
